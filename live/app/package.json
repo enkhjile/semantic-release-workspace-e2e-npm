@@ -1,6 +1,6 @@
 {
   "name": "@enkhjile/srw-e2e-npm-app",
-  "version": "1.0.0",
+  "version": "1.1.0-alpha4.1",
   "description": "Disposable npm real-consumer acceptance app",
   "license": "MIT",
   "type": "module",
