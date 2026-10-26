@@ -33,6 +33,11 @@ try{
       result.expiryIsString=typeof data.expires==='string';
       result.expiryIsDate=Number.isFinite(Date.parse(data.expires));
       result.expiryBeyond15Seconds=typeof data.expires==='string'&&Number.isFinite(Date.parse(data.expires))&&Date.parse(data.expires)>Date.now()+15000;
+      const now=Date.now();
+      result.createdNearNowMilliseconds=typeof data.created==='number'&&Math.abs(data.created-now)<300000;
+      result.createdNearNowSeconds=typeof data.created==='number'&&Math.abs(data.created*1000-now)<300000;
+      result.expiresFutureMilliseconds=typeof data.expires==='number'&&data.expires>now+15000&&data.expires<now+86400000;
+      result.expiresFutureSeconds=typeof data.expires==='number'&&data.expires*1000>now+15000&&data.expires*1000<now+86400000;
       result.alpha2ResponseValidation=result.tokenPresent&&data.token_type==='oidc'&&result.expiryBeyond15Seconds;
     }catch(error){result.status=error.statusCode??error.status??null;result.errorCode=typeof error.code==='string'&&/^[A-Z0-9_]{1,64}$/.test(error.code)?error.code:'redacted';}
     output.cases.push(result);
