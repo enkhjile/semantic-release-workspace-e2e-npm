@@ -4,12 +4,13 @@
   "type": "module",
   "packageManager": "npm@12.2.1",
   "workspaces": [
-    "packages/*"
+    "live/*"
   ],
   "scripts": {
     "acceptance": "node scripts/acceptance.mjs",
     "build": "node scripts/build.mjs",
-    "test": "node --test scripts/consumer.test.mjs"
+    "test": "node --test scripts/consumer.test.mjs",
+    "release:live": "semantic-release"
   },
   "devDependencies": {
     "semantic-release": "25.0.9",
