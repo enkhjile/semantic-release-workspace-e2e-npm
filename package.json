@@ -12,9 +12,10 @@
     "test": "node --test scripts/consumer.test.mjs"
   },
   "devDependencies": {
-    "semantic-release": "25.0.9",
-    "semantic-release-workspace": "1.0.0-alpha.6",
     "@sigstore/mock": "0.12.1",
-    "@tufjs/repo-mock": "4.0.1"
+    "@tufjs/repo-mock": "4.0.1",
+    "conventional-changelog-conventionalcommits": "9.3.1",
+    "semantic-release": "25.0.9",
+    "semantic-release-workspace": "1.0.0-alpha.6"
   }
 }
