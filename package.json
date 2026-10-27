@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "semantic-release": "25.0.9",
-    "semantic-release-workspace": "1.0.0-alpha.4"
+    "semantic-release-workspace": "1.0.0-alpha.6",
+    "@sigstore/mock": "0.12.1",
+    "@tufjs/repo-mock": "4.0.1"
   }
 }
