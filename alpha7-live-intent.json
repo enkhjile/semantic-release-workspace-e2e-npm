@@ -1,32 +1,16 @@
 {
-  "mode": "preview-only",
-  "manager": "npm",
-  "branches": {
-    "alpha7-live": {
-      "branch": "alpha7-live",
-      "packages": [
-        {
-          "name": "@enkhjile/srw-e2e-npm-core",
-          "nextVersion": "1.1.0-alpha7.1"
-        },
-        {
-          "name": "@enkhjile/srw-e2e-npm-app",
-          "nextVersion": "1.1.0-alpha7.1"
-        }
-      ]
+  "mode": "publish",
+  "phase": "first-alpha",
+  "branch": "alpha7-live",
+  "channel": "alpha",
+  "expected": [
+    {
+      "name": "@enkhjile/srw-e2e-npm-core",
+      "version": "1.1.0-alpha7.1"
     },
-    "stable7-live": {
-      "branch": "stable7-live",
-      "packages": [
-        {
-          "name": "@enkhjile/srw-e2e-npm-core",
-          "nextVersion": "1.1.0"
-        },
-        {
-          "name": "@enkhjile/srw-e2e-npm-app",
-          "nextVersion": "1.1.0"
-        }
-      ]
+    {
+      "name": "@enkhjile/srw-e2e-npm-app",
+      "version": "1.1.0-alpha7.1"
     }
-  }
+  ]
 }
