@@ -1,17 +1,9 @@
 {
-  "mode": "publish",
-  "phase": "shared-retry",
+  "mode": "preview",
+  "phase": "acceptance-complete",
   "branch": "alpha",
   "channel": "alpha",
   "budgetLimit": 12,
-  "expected": [
-    {
-      "name": "@enkhjile/srw-e2e-npm-core",
-      "version": "1.4.0-alpha.3"
-    }
-  ],
-  "unchangedMembers": [
-    "@enkhjile/srw-e2e-npm-app"
-  ],
-  "previousSourceSha": "24f95124bfb7deaf010a7205d87f9d8590767aba"
+  "expected": [],
+  "unchangedMembers": []
 }
