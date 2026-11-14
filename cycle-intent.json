@@ -11,20 +11,20 @@
     },
     "alpha": {
       "mode": "publish",
-      "phase": "next-core-feature",
+      "phase": "next-core-fix",
       "branch": "alpha",
       "channel": "alpha",
       "budgetLimit": 12,
       "expected": [
         {
           "name": "@enkhjile/srw-e2e-npm-core",
-          "version": "1.5.0-alpha.1"
+          "version": "1.5.0-alpha.2"
         }
       ],
       "unchangedMembers": [
         "@enkhjile/srw-e2e-npm-app"
       ],
-      "previousSourceSha": "c0ba7cb429ddfc8759b79de61867274e00f005f8"
+      "previousSourceSha": "d2d717315b41f731612d65d5693dd3f16e9bc6bb"
     }
   }
 }
