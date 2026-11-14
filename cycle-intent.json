@@ -2,7 +2,7 @@
   "branches": {
     "main": {
       "mode": "preview",
-      "phase": "stable-complete",
+      "phase": "cycle-complete",
       "branch": "main",
       "channel": "latest",
       "budgetLimit": 12,
@@ -10,21 +10,13 @@
       "unchangedMembers": []
     },
     "alpha": {
-      "mode": "publish",
-      "phase": "next-core-fix",
+      "mode": "preview",
+      "phase": "cycle-complete",
       "branch": "alpha",
       "channel": "alpha",
       "budgetLimit": 12,
-      "expected": [
-        {
-          "name": "@enkhjile/srw-e2e-npm-core",
-          "version": "1.5.0-alpha.2"
-        }
-      ],
-      "unchangedMembers": [
-        "@enkhjile/srw-e2e-npm-app"
-      ],
-      "previousSourceSha": "d2d717315b41f731612d65d5693dd3f16e9bc6bb"
+      "expected": [],
+      "unchangedMembers": []
     }
   }
 }
