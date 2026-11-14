@@ -1,18 +1,17 @@
 {
   "mode": "publish",
-  "phase": "initial-independent",
+  "phase": "core-only",
   "branch": "alpha",
   "channel": "alpha",
   "budgetLimit": 12,
   "expected": [
     {
       "name": "@enkhjile/srw-e2e-npm-core",
-      "version": "1.4.0-alpha.1"
-    },
-    {
-      "name": "@enkhjile/srw-e2e-npm-app",
-      "version": "1.1.0-alpha.1"
+      "version": "1.4.0-alpha.2"
     }
   ],
-  "unchangedMembers": []
+  "unchangedMembers": [
+    "@enkhjile/srw-e2e-npm-app"
+  ],
+  "previousSourceSha": "1ff2e3b239227c298d5227aeb58fbb45082ebe83"
 }
