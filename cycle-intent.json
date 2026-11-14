@@ -1,24 +1,17 @@
 {
   "branches": {
     "main": {
-      "mode": "no-change",
-      "phase": "stable-verifier-repair",
+      "mode": "preview",
+      "phase": "cycle-complete",
       "branch": "main",
       "channel": "latest",
       "budgetLimit": 12,
       "expected": [],
-      "unchangedMembers": [],
-      "auditStable": {
-        "source": "aac4c1e08f6ad9e544ae737311678eecbcf09c5d",
-        "parents": [
-          "f4ba7cc547835d20fe1b085977b5bf087206cbe8",
-          "d9db58d7c49fc482f4587b23628cf58b0151a72f"
-        ]
-      }
+      "unchangedMembers": []
     },
     "alpha": {
-      "mode": "no-change",
-      "phase": "stable-intent-alpha-nochange",
+      "mode": "preview",
+      "phase": "cycle-complete",
       "branch": "alpha",
       "channel": "alpha",
       "budgetLimit": 12,
