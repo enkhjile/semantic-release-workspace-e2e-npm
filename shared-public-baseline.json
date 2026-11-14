@@ -1,0 +1,30 @@
+{
+  "@enkhjile/srw-e2e-npm-core": {
+    "versions": {
+      "0.0.0-stage": "sha512-dxpke0nM2KTEqgZP789bVrY71DshIQdiJXH71mtOtl353RT1IJK1923kJHW7UKUinVQftr8ZSI7+ViTmfbRJoQ==",
+      "1.0.0": "sha512-FVLCXQAFwyw7n/Dv/NS9Z1hv6uiJZD9qxW04xX31DEMg36IRj8EEulLghF5kf4G2XcJvF+0G4no0koD+0qOoMg==",
+      "1.1.0-alpha3.1": "sha512-3FWch5aFkQLb9rKfOw20eurqPwIwq56cKjGnCu30VuK350Hw+/7PeJiyHL70Kpiygsgwuq7ACIA9AfSIx8e8qA==",
+      "1.1.0-alpha7.1": "sha512-9GWGvufQkMdlMjzWGcG3dOXBMNK5MJi5Rsl/jV1lPnghoZ5NTQ+5qH8+r4G2YfwN6nd7LdOjVmLQGlrhQmpK6g==",
+      "1.1.0": "sha512-pNgA8lbuaUn4b+c86R8iMCFswR8g+RJXbVHTiq3f5C7Nz2bpfH0ncdE5O7S/7IoSagrIioAJzuoTqAWeHh7DUg==",
+      "1.2.0-alpha7.1": "sha512-S+C3Xjs6L71//jmn7gRLpQbeRkCCJdGi/Mz6NJwdyCpBIVXqQIsWoAAoJU0N1yIa6ubERxkhWeS0NV8W0mcKnA==",
+      "1.2.0-alpha7.2": "sha512-dtFTuBim9wK0Jog4CQRQajYyAsXd/jydmEvarYv6DoF/cUSP75gZeCUhtOKghn/WFFPZ0O1+32c6BzmuLUGTDw==",
+      "1.2.0": "sha512-FWeImNU44MhmRWBMsqg3x6ETPk6+Gxcvk7iiT0HCIMC2EvB5Ounf6xJw1QWMZha+BRUO8Ew9Hgvfy5B2WDCc2Q==",
+      "1.3.0-alpha7.1": "sha512-jRmFuoEUM5Ewnr0uxOQEta5A0TLNk2CS7JNaqsct+1w/15nXCDdSYifEnu684OvDZTnRAXqLp46xjAiCooFmWg=="
+    },
+    "tags": {
+      "bootstrap": "1.0.0",
+      "alpha3": "1.1.0-alpha3.1",
+      "latest": "1.2.0",
+      "alpha": "1.3.0-alpha7.1"
+    }
+  },
+  "@enkhjile/srw-e2e-npm-app": {
+    "versions": {
+      "1.0.0": "sha512-Yp5XxwcucXGLu565k3rr5JAwVWQQTzYg83Ge2YITSJhfRp4ygszPjQ2ZWBJZnXDkWfW+LKYjTeiRMvjioAkrtg=="
+    },
+    "tags": {
+      "bootstrap": "1.0.0",
+      "latest": "1.0.0"
+    }
+  }
+}
